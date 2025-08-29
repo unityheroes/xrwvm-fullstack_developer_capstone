@@ -1,0 +1,110 @@
+<html>
+<head>
+  <!-- Link the style sheet here -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <style>
+    .team-member {
+      transition: transform 0.3s ease;
+      margin-bottom: 20px;
+    }
+    .team-member:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    .banner {
+      background-color: #f8f9fa;
+      padding: 30px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .title {
+      font-weight: bold;
+      color: #007bff;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Best Cars Dealership</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container mt-5">
+    <div class="banner" name="about-header">
+      <h1>About Best Cars Dealership</h1>
+      <p class="lead">Welcome to Best Cars dealership, home to the best cars in North America. We deal in sale of domestic and imported cars at reasonable prices.</p>
+     
+    
+    <h2 class="text-center mb-4">Our Leadership Team</h2>
+    
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card team-member">
+            <img class="card-img-top" src="/static/person.png" alt="General Manager" style="height: 250px; object-fit: cover;">
+          <div class="card-body">
+            <p class="title">John Anderson</p>
+            <p class="text-muted">General Manager</p>
+            <p class="card-text">With over 15 years of experience in the automotive industry, John leads our team with expertise and dedication to customer.</p>
+            <p class="card-text"><small class="text-muted">john.anderson@bestcars.com</small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card team-member">
+            <img class="card-img-top" src="/static/person.png" alt="General Manager" style="height: 250px; object-fit: cover;">
+          <div class="card-body">
+            <p class="title">Sarah Johnson</p>
+            <p class="text-muted">Sales Director</p>
+            <p class="card-text">Sarah specializes in finding the perfect vehicle for each customer and ensuring a smooth purchasing experience.</p>
+            <p class="card-text"><small class="text-muted">sarah.johnson@bestcars.com</small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card team-member">
+            <img class="card-img-top" src="/static/person.png" alt="General Manager" style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+            <p class="title">Michael Wilson</p>
+            <p class="text-muted">Service Manager</p>
+            <p class="card-text">Michael oversees our state-of-the-art service center, ensuring your vehicle receives the best maintenance and repairs.</p>
+            <p class="card-text"><small class="text-muted">michael.wilson@bestcars.com</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row mt-5">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Our Mission</h3>
+            <p class="card-text">At Best Cars Dealership, our mission is to provide exceptional value through quality vehicles, transparent pricing, and outstanding customer service. We believe that buying a car should be an exciting and hassle-free experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
